@@ -1,2 +1,2 @@
-# gulimall
-gulimall
+# maldosia-mall
+maldosia-mall
