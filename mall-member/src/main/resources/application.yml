@@ -1,15 +1,21 @@
+server:
+  port: 8000
+
 spring:
+  application:
+    name: mall-member
   datasource:
     username: root
     password: 123456
     url: jdbc:mysql://47.108.144.253:3306/maldosia-mall-ums?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
 
 mybatis-plus:
   mapper-locations: classpath:/mapper/**/*.xml
   global-config:
     db-config:
       id-type: auto
-
-server:
-  port: 8000
