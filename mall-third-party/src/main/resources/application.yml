@@ -1,0 +1,16 @@
+server:
+  port: 30000
+
+spring:
+  application:
+    name: mall-third-party
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    alicloud:
+      access-key: LTAI5tNwY2CyBFN5q2AnTKWo
+      secret-key: PpnuTe7kdB5CTFgThdCRuFrOyq4Env
+      oss:
+        endpoint: oss-cn-chengdu.aliyuncs.com
+        bucket: maldosia-mall

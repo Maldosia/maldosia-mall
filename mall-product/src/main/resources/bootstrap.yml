@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: mall-third-party
+
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: 557666f5-f4a3-45dc-a7ef-0fdc541b994b
